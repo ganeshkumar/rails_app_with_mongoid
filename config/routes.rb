@@ -1,4 +1,6 @@
 WithMongoid::Application.routes.draw do
+  resources :posts
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -26,10 +28,7 @@ WithMongoid::Application.routes.draw do
   #   end
 
   # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+    resources :posts 
 
   # Sample resource route with more complex sub-resources
   #   resources :products do
