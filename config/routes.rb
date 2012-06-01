@@ -1,4 +1,8 @@
 WithMongoid::Application.routes.draw do
+  resources :authors
+
+  resources :articles
+
   resources :posts
 
   # The priority is based upon order of creation:
