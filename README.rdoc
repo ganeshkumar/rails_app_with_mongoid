@@ -8,6 +8,7 @@ To setup follow the below instructions
 
 
 #TODO
+
 1) Add oauth for login
 2) Add avatars for users [uploading pic]
 3) Add Video Player with HTML5
