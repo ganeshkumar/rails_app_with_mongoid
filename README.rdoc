@@ -1,3 +1,5 @@
+
+
 This is a sample rails app which uses the mongoid as ODM 
 
 
